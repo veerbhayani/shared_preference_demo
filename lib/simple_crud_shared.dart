@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SimpleCrudSharedPref {
-  var fName = '', mName = '', lName = '';
   static var userDetails = [];
   static var firstNameController = TextEditingController();
   static var middleNameController = TextEditingController();
